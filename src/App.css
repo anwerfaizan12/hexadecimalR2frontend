@@ -1,0 +1,30 @@
+.home{
+    background-image: linear-gradient(to right, #fff5bc ,#cec1ff);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  text-align: left;
+}
+
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
